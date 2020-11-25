@@ -16,16 +16,14 @@
  */
 package org.keycloak.social.weibo;
 
-import org.jboss.logging.Logger;
 import org.keycloak.broker.oidc.OAuth2IdentityProviderConfig;
 import org.keycloak.broker.provider.AbstractIdentityProviderFactory;
-import org.keycloak.models.IdentityProviderModel;
 import org.keycloak.broker.social.SocialIdentityProviderFactory;
+import org.keycloak.models.IdentityProviderModel;
 import org.keycloak.models.KeycloakSession;
-import org.keycloak.services.resources.IdentityBrokerService;
 
 /**
- * @author yong.jiang
+ * @author qing.hu & kai.wang
  */
 public class WeiBoIdentityProviderFactory extends AbstractIdentityProviderFactory<WeiBoIdentityProvider>
 		implements SocialIdentityProviderFactory<WeiBoIdentityProvider> {
